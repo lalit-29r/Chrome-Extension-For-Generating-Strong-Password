@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./popupStyles/popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>SecurePass</title>
+</head>
+<body>
+    <div class="container">
+        <div class="lock-logo-div">
+            <img src="icon48.png" alt="image of a lock">
+        </div>
+        <!-- settings container -->
+        <section class="settings-container">
+           <div class="setting">
+                <label for="includeDigits">
+                    <span>Include Numbers</span>
+                    <span></span>
+                </label>
+                <input type="checkbox" id="includeDigits" checked>
+            </div>
+           <div class="setting">
+                <label for="specialChar">
+                    <span>Include Special Characters</span>
+                    <span></span>
+                </label>
+                <input type="checkbox" id="specialChar" >
+            </div>
+           <div class="setting">
+                <label for="letterMix">
+                    <span>Uppercase Letters</span>
+                </label>
+                <input type="checkbox" id="letterMix" checked>
+            </div>
+        </section>
+
+        <!-- character length -->
+        <section class="character-length">
+            <p>Password Length : <span id="charLengthSpan"></span> Characters</p>
+            <p>Move The Slider To Adjust The Length Of Password</p>
+            <input type="range" id="characterLengthSlider" min="8" max="32" value="12">
+        </section>
+
+        <!-- generated password -->
+        <section class="generated-password">
+            <input type="text" id="generatedPassword" spellcheck="false">
+            <button class="copy-password" id="copyPassword">
+                <i class="fa-solid fa-copy"></i>
+            </button>
+
+            <!-- <button class="save-password" id="savePassword">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button> -->
+
+            <div class="confirmation" id="confirmation">
+                <p>Password Copied!</p>
+            </div>
+        </section>
+
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
