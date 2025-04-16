@@ -15,10 +15,6 @@
 - Responsive and intuitive UI
 - Fully compatible with modern browsers (Manifest v3)
 
-## 🖥️ Preview
-
-![SecurePass UI](./SecurePass/icon48.png)
-
 ## 📦 Installation
 
 1. **Clone or Download this repository**:
