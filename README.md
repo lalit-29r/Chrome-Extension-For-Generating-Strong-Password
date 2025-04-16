@@ -1,5 +1,4 @@
 
-```markdown
 # 🔐 SecurePass – Chrome Extension for Strong Password Generation
 
 **SecurePass** is a lightweight and user-friendly Chrome extension that helps you generate strong, secure, and customizable passwords on the fly. Designed with simplicity and privacy in mind, it ensures your credentials remain safe without storing any data.
