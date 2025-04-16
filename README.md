@@ -1,6 +1,4 @@
 
----
-
 ```markdown
 # 🔐 SecurePass – Chrome Extension for Strong Password Generation
 
