@@ -19,7 +19,7 @@
 
 1. **Clone or Download this repository**:
    ```bash
-   git clone https://github.com/yourusername/SecurePass.git
+   git clone https://github.com/lalit-29r/Chrome-Extension-For-Generating-Strong-Password.git
    ```
 
 2. **Open Chrome** and go to:
